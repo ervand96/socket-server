@@ -8,7 +8,7 @@ import Messages from "./Messages";
 import icon from "../images/logo.svg";
 import styles from "../styles/Chat.module.css"; 
 
-const DEPLOY_URL = "https://online-chat-zk62.onrender.com";
+const DEPLOY_URL = "https://online-chat-zk62.onrender.com"; 
 
 const socket = io.connect(DEPLOY_URL);
 
